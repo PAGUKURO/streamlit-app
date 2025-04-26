@@ -238,7 +238,7 @@ with tab1:
     local_folder_path = "C:\PoCDirectory\BrushupAPI\PDFs"
     
     # アップロード方法の選択
-    upload_method = st.sidebar.radio("アップロード方法を選択", ["アイテム名でファイル選択", "手動でファイルを選択",index=1])
+    upload_method = st.sidebar.radio("アップロード方法を選択", ["アイテム名でファイル選択", "手動でファイルを選択"],index=1)
     
     uploaded_file = None
     
