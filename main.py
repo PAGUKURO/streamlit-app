@@ -171,7 +171,7 @@ with tab1:
     #プロジェクトIDからアイテムIDリストをセレクトボックス表示
     project_id = st.sidebar.selectbox(
         "①プロジェクトIDを選択",
-        options=["185335", "181437", "プロジェクト3"],  
+        options=["185690", "181437", "プロジェクト3"],  
         key="project_id_selectbox"
     ) 
     if st.session_state.refresh_items:
