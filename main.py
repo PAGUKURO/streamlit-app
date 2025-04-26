@@ -11,7 +11,8 @@ base_url = "https://api.brushup.net/v2/"
 st.title("Brushup API 連携アプリ")
 
 # API Keyの入力フィールド
-api_key = ""
+# Streamlit Cloudの管理画面で設定したシークレットにアクセス
+api_key = st.secrets["API_KEY"]
 
 # ヘッダーの設定（共通部分）
 headers = {
