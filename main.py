@@ -11,7 +11,7 @@ base_url = "https://api.brushup.net/v2/"
 st.title("Brushup API 連携アプリ")
 
 # API Keyの入力フィールド
-api_key = "YTFkNDI3MjJlNDQyZTAxZDA5OWMzN2Q3MGI2Yzk5NGMxZjc4ODJmOGNhZDZlY2Uy"
+api_key = ""
 
 # ヘッダーの設定（共通部分）
 headers = {
