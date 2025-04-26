@@ -12,7 +12,7 @@ st.title("Brushup API 連携アプリ")
 
 # API Keyの入力フィールド
 # Streamlit Cloudの管理画面で設定したシークレットにアクセス
-api_key = st.secrets["API_KEY"]
+api_key = st.secrets["api_key"]
 
 # ヘッダーの設定（共通部分）
 headers = {
